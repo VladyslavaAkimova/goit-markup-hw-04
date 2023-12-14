@@ -251,6 +251,7 @@ body{
 }
 .team{
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .img-list{
     padding-top: 32px;
@@ -285,7 +286,7 @@ body{
     width: 1158px;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.menu-item:after{
+.header:after{
     content: "";
     position: absolute;
     left: 0;
@@ -293,4 +294,31 @@ body{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+}
+.icons-section{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    margin-bottom: 8px;
+}
+.icons-list{
+    display: flex; 
+    justify-content: center; 
+    gap: 24px;
+}
+.icons-a{
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius:50%;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+.icons-a:hover,
+.icons-a:focus{
+    background-color: #404bbf;
 }
