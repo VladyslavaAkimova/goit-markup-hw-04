@@ -94,6 +94,9 @@ body{
 .menu-link:focus{
     color: #404bbf
 }
+.menu-item{
+    color: #404bbf;
+}
 .main-address{
     color: var(--SLATE, #434455);
     font-family: Roboto, sans-serif;
@@ -276,9 +279,11 @@ body{
     
 }
 .portfolio-li:hover{
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-li:hover .div-img{
+.portfolio-li:hover.div-p{
 transform: translateY(0%);
 }
     
@@ -296,7 +301,7 @@ transform: translateY(0%);
     width: 1158px;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header:after{
+.main-header:after{
     content: "";
     position: absolute;
     left: 0;
@@ -344,6 +349,7 @@ transform: translateY(0%);
 .div-img{
     overflow: hidden;
     position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-p{
     position: absolute;
