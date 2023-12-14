@@ -63,6 +63,9 @@ body{
         text-transform: uppercase;
         margin-right: 76px
 }
+.logo:hover{
+    color: #404bbf;
+}
 .logo-first{
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway,sans-serif;
@@ -141,6 +144,7 @@ body{
     letter-spacing: 0.02em;
     max-width: 496px;
     align-items: center;
+    display: block;
 }
 .main-button{
     background-color: #4D5AE5;
@@ -223,6 +227,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-right: 76px;
+
 }
 .menu{
     display: flex;
